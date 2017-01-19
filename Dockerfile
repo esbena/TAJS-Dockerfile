@@ -1,5 +1,7 @@
 FROM ubuntu:15.04
 
+ARG CACHE_DATE=not_a_date
+
 RUN set -ex
 
 #
